@@ -1,6 +1,6 @@
 # Yash Markad — AI Engineer Portfolio
 
-Responsive, dark-themed personal portfolio built with React and Vite.
+Responsive, dark-themed personal portfolio built with React and Vite. Deployed automatically to GitHub Pages from the `main` branch.
 
 ## Run locally
 
