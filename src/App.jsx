@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { profile, skills, projects, experience, education } from './data'
+import { portraitImage } from './portrait'
 
 function Icon({ name }) {
   const paths = {
@@ -44,11 +45,9 @@ function Hero() {
       </div>
       <div className="hero-meta"><span>BASED IN INDIA</span><span className="meta-dot" /><span>PYTHON · GENAI · AGENTIC AI</span></div>
     </div>
-    <div className="hero-art" aria-label="Abstract AI network illustration">
-      <div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit orbit-three" />
-      <div className="core"><span>AI</span><small>IN MOTION</small></div>
-      <span className="node node-a">LLM</span><span className="node node-b">RAG</span><span className="node node-c">MCP</span><span className="node node-d">AGENTS</span>
-      <div className="art-caption"><span className="caption-line" /> SYSTEMS THINKING / HUMAN IMPACT</div>
+    <div className="hero-art hero-photo" aria-label="Portrait of Yash Markad">
+      <div className="portrait-glow"><img src={portraitImage} alt="Yash Markad" /></div>
+      <div className="portrait-tag"><span /> AI ENGINEER · BUILDER</div>
     </div>
     <a className="scroll-cue" href="#about"><span /> SCROLL TO EXPLORE</a>
   </section>
