@@ -41,7 +41,6 @@ function Hero() {
       <div className="hero-actions">
         <a className="button button-primary" href="#work">Explore my work <Icon name="arrow" /></a>
         <a className="button button-ghost" href="#contact">Get in touch</a>
-        <a className="button button-ghost" href={`${import.meta.env.BASE_URL}resume.docx`} download>Download CV <Icon name="download" /></a>
       </div>
       <div className="hero-meta"><span>BASED IN INDIA</span><span className="meta-dot" /><span>PYTHON · GENAI · AGENTIC AI</span></div>
     </div>
